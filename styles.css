@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   padding: 50px 0 20px 0;
   color: white;
-  font-family: "Rubik", sans-serif;
+  font-family: Poppins ;
   /* background-image: -webkit-linear-gradient(0deg, #20D1FD 0%, #A433FF 100%); */
   background: #101010;
   scroll-behavior: smooth;
@@ -42,7 +42,7 @@ footer {
 }
 #name {
   font-size: 1.3rem;
-  color: #0FFF50;
+  color: #02fDF6;
   font-weight: 600;
   margin-top: 1em;
 }
@@ -71,11 +71,11 @@ footer {
 }
 
 .links-container {
-  border-color: #0FFF50;
+  border-color: #02fDF6;
   border-width: 0px;
   border-radius: 10px;
   padding: 2rem;
-  background: #0FFF50;
+  background: #02fDF6;
   margin: 0 auto;
   margin-bottom: 30px;
   width: 80%;
@@ -85,7 +85,7 @@ footer {
 
 .links-container:hover {
   background-color: #0000;
-  color: #0FFF50;
+  color: #02fDF6;
 }
 
 .links-container p {
@@ -100,14 +100,14 @@ footer {
 }
 .links-data {
   font-family: "Rubik", sans-serif;
-  color: #0FFF50;
+  color: #02fDF6;
   font-size: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
   #name {
     font-size: 1.2rem;
-    color: #0FFF50;
+    color: #02fDF6;
     font-weight: 600;
   }
   #bio {
@@ -125,7 +125,7 @@ footer {
   }
   .links-data {
     font-family: "Rubik", sans-serif;
-    color: #0FFF50;
+    color: #02fDF6;
     font-size: 0.9rem;
   }
 }
